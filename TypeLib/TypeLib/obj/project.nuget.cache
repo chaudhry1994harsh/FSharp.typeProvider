@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YvFrYTpUqTRRnXzajaq70K3KhYodR0qnk/0jGGefwolmTcS/jX4n13ywXxHNvZv93G8xEsCDLmwtjnyUN6p4hw==",
+  "success": true,
+  "projectFilePath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\TypeLib.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

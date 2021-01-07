@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\TypeLib.fsproj": {}
+  },
+  "projects": {
+    "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\TypeLib.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\TypeLib.fsproj",
+        "projectName": "TypeLib",
+        "projectPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\TypeLib.fsproj",
+        "packagesPath": "C:\\Users\\chaud\\.nuget\\packages\\",
+        "outputPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "generatePathProperty": true
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
