@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\FSharp.typeProvider\\TypeLib\\Diff\\Diff.fsproj": {}
+  },
+  "projects": {
+    "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\FSharp.typeProvider\\TypeLib\\Diff\\Diff.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\FSharp.typeProvider\\TypeLib\\Diff\\Diff.fsproj",
+        "projectName": "Diff",
+        "projectPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\FSharp.typeProvider\\TypeLib\\Diff\\Diff.fsproj",
+        "packagesPath": "C:\\Users\\chaud\\.nuget\\packages\\",
+        "outputPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\FSharp.typeProvider\\TypeLib\\Diff\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DiffSharp": {
+              "target": "Package",
+              "version": "[0.7.7, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

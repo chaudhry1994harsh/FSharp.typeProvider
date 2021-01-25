@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiffSharp" Version="0.7.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TypeLib">
+      <HintPath>..\..\Fresh\TypeLib\TypeLib\bin\Debug\net48\TypeLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

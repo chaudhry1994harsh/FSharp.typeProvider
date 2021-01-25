@@ -1,18 +1,16 @@
-#r @"E:/Uni-Weimar Subjects/Math.Sc type provider/Workspace/Blank test/Fresh/TypeLib/TypeLib/bin/Debug/netstandard2.0/TypeLib.dll"
+#r @"TypeLib\TypeLib\bin\x64\Debug\net48\TypeLib.dll"
+#r @"TypeLib\TypeLib\bin\x64\Debug\net48\DiffSharp.dll"
+#r @"TypeLib\TypeLib\bin\x64\Debug\net48\\FSharp.Quotations.Evaluator.dll"
+#r @"TypeLib\MethodProvider\bin\x64\Debug\net48\\MethodProvider.dll"
+#r @"MethodLb.dll"
 
 
+open System
+open DiffSharp.Symbolic.Float64
 open InTheName.OfScience.TypeProvider.Provided
+open MethodProvider.Say
+open MethodLb.compute
 
-MyType.MyProperty
-
-let thing = MyType()
-let thingInnerState = thing.InnerState
-
-let thing2 = MyType("Some other text")
-let thing2InnerState = thing2.InnerState
-
-
-let a = int 12
 
 
 let t = ``Time(s)`` 12
@@ -53,3 +51,53 @@ let v1 = ``Velocity(km/h)`` 10
 let v3 = v1.toMpS
 let v4 = v3.toKMpH
 
+
+
+
+let vel = Velocity_Equation <@ fun x -> (x ** 3. + x) @>
+let acc = Acceleration_Equation <@ fun x -> (x ** 3. + x) @>
+vel.GetType()
+
+let eval2Acc vel at =
+    let temp = diff vel at
+    Accuracy temp
+
+let z = eval2Acc vel 2.
+
+let m = eval_toAcc vel 2.
+let zm = evalAcceleration vel 2.
+
+
+let accccu = diff vel 2.
+
+let b = eval_toAcc vel 2.
+
+let lol = eval_toAcc vel 2.
+
+
+//the following 4 are still under development and will most likey be ported to the method library
+(*
+let acc2 = vel.deriv_toAcc()
+
+let acc3 = vel.eval_toAccDeaf(2.)
+
+let acc4 = vel.eval_toAcc1(2.0)
+
+let acc5 = vel.eval_toAcc2(vel, 2.) 
+*)
+
+
+
+let acc5 = Acceleration_Equation 5.
+let acc6 = Acceleration_Equation (diff <@ fun x -> (x ** 3. + x) @>)
+
+let dm = Accuracy 5.
+let p = Accuracy 7.
+let ll = dm + z 
+
+let n = <@ fun x -> (x ** 3. + x) @>
+n.GetType()
+let ms = diff <@ fun x -> (x ** 3. + x) @>
+ms.GetType()
+let mss = diff <@ fun x -> (x ** 3. + x) @> 2.
+mss.GetType()

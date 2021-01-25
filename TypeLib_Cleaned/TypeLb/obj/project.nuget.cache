@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7KQwa0NdvVBZx/9AKeszqFUHqA2ZRwwU9P2ioLESe8jBqJ4if6xFVeOwhbtFpvAE4fguimWaQECe++JA3kl+fw==",
+  "success": true,
+  "projectFilePath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\TypeLib_Cleaned\\TypeLb\\TypeLb.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

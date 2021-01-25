@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj": {}
+  },
+  "projects": {
+    "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj",
+        "projectName": "MethodLb",
+        "projectPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj",
+        "packagesPath": "C:\\Users\\chaud\\.nuget\\packages\\",
+        "outputPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chaud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "DiffSharp": {
+              "target": "Package",
+              "version": "[0.7.7, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

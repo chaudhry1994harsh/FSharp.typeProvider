@@ -1,12 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "YvFrYTpUqTRRnXzajaq70K3KhYodR0qnk/0jGGefwolmTcS/jX4n13ywXxHNvZv93G8xEsCDLmwtjnyUN6p4hw==",
+  "dgSpecHash": "vqnaAPvQvTKsY2vmXZfqxivrInanjNq+wR9jqYZh21vHHqI/4bmpYnWh4dFDBQvFrPegNfhqdiYqrYFf13zdrw==",
   "success": true,
   "projectFilePath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\Fresh\\TypeLib\\TypeLib\\TypeLib.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\diffsharp\\0.7.7\\diffsharp.0.7.7.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.quotations.evaluator\\1.0.6\\fsharp.quotations.evaluator.1.0.6.nupkg.sha512",
     "C:\\Users\\chaud\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\chaud\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FSharp.Quotations.Evaluator 1.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FSharp.Quotations.Evaluator",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

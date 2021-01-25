@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/H3ixhuVFCxAtArOaeXNxHNxy2yoQvQZLy4FKvINSZ2OiNnF6kPJVLhp/2QLGn8vd0ArJYk5fHs9cq/zDxYMtA==",
+  "success": true,
+  "projectFilePath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chaud\\.nuget\\packages\\diffsharp\\0.7.7\\diffsharp.0.7.7.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\fsharp.quotations.evaluator\\1.0.6\\fsharp.quotations.evaluator.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\libgcc_s_seh-1.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\libgfortran-3.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\libopenblas.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\libquadmath-0.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\TypeLib.deps.json
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\TypeLib.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\bin\x64\Debug\netstandard2.0\TypeLib.pdb
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\obj\x64\Debug\netstandard2.0\TypeLib.fsprojAssemblyReference.cache
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\obj\x64\Debug\netstandard2.0\TypeLib.AssemblyInfoInputs.cache
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\obj\x64\Debug\netstandard2.0\TypeLib.AssemblyInfo.fs
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\obj\x64\Debug\netstandard2.0\TypeLib.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Fresh\TypeLib\TypeLib\obj\x64\Debug\netstandard2.0\TypeLib.pdb

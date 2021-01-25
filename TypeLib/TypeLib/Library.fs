@@ -3,6 +3,8 @@
 open ProviderImplementation.ProvidedTypes
 open Microsoft.FSharp.Core.CompilerServices
 open System.Reflection
+//open DiffSharp.Symbolic.Float64
+open Microsoft.FSharp.Quotations
 
 [<TypeProvider>]
 type MathProvider (config : TypeProviderConfig) as this =
@@ -124,7 +126,93 @@ type MathProvider (config : TypeProviderConfig) as this =
         mps.AddMember(prop)
 
 
-        [myType;sec;meter;mps;hr;km;kph]
+
+        let acc = ProvidedTypeDefinition(asm,ns,"Acceleration", Some typeof<float>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof<float>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):float)  @@>)
+        acc.AddMember(ctor)
+
+        
+        let all = ProvidedTypeDefinition(asm,ns,"Acc", Some typeof<float>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof<float>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):float)  @@>)
+        all.AddMember(ctor)
+
+        let amm = ProvidedTypeDefinition(asm,ns,"Accur", Some typeof<obj>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof<float>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):float) :> obj  @@>)
+        all.AddMember(ctor)
+
+
+
+        (*let velEq = ProvidedTypeDefinition(asm,ns,"Velocity_Equation", Some typeof<Expr<float -> float>>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d",  typeof< Expr<float -> float>>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):(Expr<float -> float>)) @@>)
+        velEq.AddMember(ctor)*)
+
+        let velEq = ProvidedTypeDefinition(asm,ns,"Velocity_Equation", Some typeof< Expr<float -> float>>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d",  typeof< Expr<float -> float>>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):(Expr<float -> float>)) :> obj @@>)
+        velEq.AddMember(ctor)
+
+        (*let ctor2 = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof<float -> float>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):(float->float)) @@>)
+        velEq.AddMember(ctor2)*)
+        (*let meth = ProvidedMethod("evaluate", 
+                        [ProvidedParameter("ex", typeof<Expr<float -> float>>);ProvidedParameter("d",  typeof<float>)],
+                        typeof<float>, invokeCode = fun args -> <@@ (%%(args.[0]):(Expr<float -> float>)) %%(args.[1]) @@>)
+                        *)
+        (*let accEq = ProvidedTypeDefinition(asm,ns,"Acceleration_Equation", Some typeof<Expr<float -> float>>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof< Expr<float -> float>>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):(Expr<float -> float>)) @@>)
+        accEq.AddMember(ctor)*)
+
+        let accEq = ProvidedTypeDefinition(asm,ns,"Acceleration_Equation", Some typeof<obj>)
+        let ctor = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof< Expr<float -> float>>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):(Expr<float -> float>)) :> obj @@>)
+        accEq.AddMember(ctor)
+        let ctor2 = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof<float>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):float) @@>)
+        accEq.AddMember(ctor2)
+        let ctor3 = ProvidedConstructor(
+                        [ProvidedParameter("d", typeof<float -> float>)], 
+                        invokeCode = fun args -> <@@ (%%(args.[0]):(float -> float)) @@>)
+        accEq.AddMember(ctor3)
+        
+
+        (*let meth2 = ProvidedMethod("eval_toAcc2", 
+                        [ProvidedParameter("ex", typeof<obj>);ProvidedParameter("d", typeof<obj>)],
+                        acc, invokeCode = fun args -> <@@ ( diff ((%%(args.[0]):obj) :?> Expr<float -> float> ) ((%%(args.[1]):obj):?> float ) ) :> obj @@>)
+        velEq.AddMember(meth2)
+
+        let meth = ProvidedMethod("eval_toAcc1", 
+                        [ProvidedParameter("ex", typeof<obj>);ProvidedParameter("d", typeof<float>)],
+                        typeof<double>, invokeCode = fun args -> <@@ ( diff ((%%(args.[0]):obj) :?> Expr<float -> float> ) (%%(args.[1]):float) ) :> obj @@>)
+        velEq.AddMember(meth)
+        *)
+
+        (*let meth = ProvidedMethod("eval_toAccDeaf", 
+                        [ProvidedParameter("d",typeof<float>)],
+                        typeof<float>, invokeCode = fun args -> <@@ (  %%(args.[0]):float   )  @@>)
+        velEq.AddMember(meth)
+        *)
+        (*let prop = ProvidedProperty("deriv_toAcc", accEq , getterCode = fun args ->  <@@ (diff  ((%%(args.[0]):obj) :?> Expr<float -> float> ) )  @@> )
+        velEq.AddMember(prop)
+        *)
+
+
+
+
+        [myType;sec;meter;mps;hr;km;kph;accEq;velEq;acc;all]
 
     do
         this.AddNamespace(ns, createTypes())

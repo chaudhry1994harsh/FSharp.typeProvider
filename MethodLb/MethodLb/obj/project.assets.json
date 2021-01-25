@@ -1,0 +1,196 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "DiffSharp/0.7.7": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Quotations.Evaluator": "1.0.6"
+        },
+        "compile": {
+          "lib/net46/DiffSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net46/DiffSharp.dll": {}
+        },
+        "build": {
+          "build/DiffSharp.targets": {}
+        }
+      },
+      "FSharp.Core/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Quotations.Evaluator/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FSharp.Quotations.Evaluator.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Quotations.Evaluator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiffSharp/0.7.7": {
+      "sha512": "2fqZC4pEoa7Xr2s2FBUctrQXbrlRl8u4ZSzRN/YxtsgifOvYj5bVxc4eP7HtxJJPcxgj48i2CoH3q+c/3sfdYA==",
+      "type": "package",
+      "path": "diffsharp/0.7.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DiffSharp.targets",
+        "build/libgcc_s_seh-1.dll",
+        "build/libgfortran-3.dll",
+        "build/libopenblas.dll",
+        "build/libquadmath-0.dll",
+        "diffsharp.0.7.7.nupkg.sha512",
+        "diffsharp.nuspec",
+        "lib/net46/DiffSharp.XML",
+        "lib/net46/DiffSharp.dll"
+      ]
+    },
+    "FSharp.Core/5.0.0": {
+      "sha512": "iHoYXA0VaSQUONGENB1aVafjDDZDZpwu39MtaRCTrmwFW/cTcK0b2yKNVYneFHJMc3ChtsSoM9lNtJ1dYXkHfA==",
+      "type": "package",
+      "path": "fsharp.core/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.5.0.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSharp.Quotations.Evaluator/1.0.6": {
+      "sha512": "fhQEEujU/IP6jZMUtrHNbwJppxGsqbNl1tY52f3c37Zuaq/LpBDqUBHOhFGw79oAX7bLP7qOyS2LtSxxKqiZDQ==",
+      "type": "package",
+      "path": "fsharp.quotations.evaluator/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.quotations.evaluator.1.0.6.nupkg.sha512",
+        "fsharp.quotations.evaluator.nuspec",
+        "lib/net40/FSharp.Quotations.Evaluator.dll",
+        "lib/net40/FSharp.Quotations.Evaluator.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "DiffSharp >= 0.7.7",
+      "FSharp.Core >= 5.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chaud\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj",
+      "projectName": "MethodLb",
+      "projectPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\MethodLb.fsproj",
+      "packagesPath": "C:\\Users\\chaud\\.nuget\\packages\\",
+      "outputPath": "E:\\Uni-Weimar Subjects\\Math.Sc type provider\\Workspace\\Blank test\\MethodLb\\MethodLb\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\chaud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "DiffSharp": {
+            "target": "Package",
+            "version": "[0.7.7, )",
+            "generatePathProperty": true
+          },
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[5.0.0, )",
+            "generatePathProperty": true
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.AssemblyInfoInputs.cache
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.AssemblyInfo.fs
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\bin\Debug\netcoreapp3.1\TypeLb.deps.json
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\bin\Debug\netcoreapp3.1\TypeLb.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\bin\Debug\netcoreapp3.1\TypeLb.pdb
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\Type\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.pdb
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\bin\Debug\netcoreapp3.1\TypeLb.deps.json
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\bin\Debug\netcoreapp3.1\TypeLb.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\bin\Debug\netcoreapp3.1\TypeLb.pdb
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.fsprojAssemblyReference.cache
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.AssemblyInfoInputs.cache
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.AssemblyInfo.fs
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.dll
+E:\Uni-Weimar Subjects\Math.Sc type provider\Workspace\Blank test\TypeLib_Cleaned\TypeLb\obj\Debug\netcoreapp3.1\TypeLb.pdb

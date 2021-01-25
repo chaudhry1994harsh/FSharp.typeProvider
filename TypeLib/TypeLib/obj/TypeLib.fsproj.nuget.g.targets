@@ -3,7 +3,14 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net472' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)diffsharp\0.7.7\build\DiffSharp.targets" Condition="Exists('$(NuGetPackageRoot)diffsharp\0.7.7\build\DiffSharp.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net48' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)diffsharp\0.7.7\build\DiffSharp.targets" Condition="Exists('$(NuGetPackageRoot)diffsharp\0.7.7\build\DiffSharp.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+    <Import Project="$(NuGetPackageRoot)diffsharp\0.7.7\build\DiffSharp.targets" Condition="Exists('$(NuGetPackageRoot)diffsharp\0.7.7\build\DiffSharp.targets')" />
   </ImportGroup>
 </Project>
